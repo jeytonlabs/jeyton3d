@@ -204,6 +204,30 @@
       background-color: #F78DA7;
       color: #fff;
       text-align: center;
-      padding: 1rem;
+      padding: 1rem 0;
       margin-top: 0rem;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .icono {
+      color: #fff;
+      font-size: 1rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .icono:hover {
+      color: #ED6087;
+    }
+
+    .icono i {
+      font-size: 1.8rem;
     }
